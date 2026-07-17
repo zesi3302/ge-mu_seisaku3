@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\game">
+      <UniqueIdentifier>{38d4b91c-9e95-42bf-abb6-95bef6f3c98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\lib">
+      <UniqueIdentifier>{838cedb5-646b-4f02-bea4-0f3c9a001f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\scene">
+      <UniqueIdentifier>{9de0c3c5-0c22-4ff6-9c7e-71ba45a26f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\player">
+      <UniqueIdentifier>{b0935171-f8d1-4123-8b09-dec99c6aaf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\collision">
+      <UniqueIdentifier>{b36e0854-ad66-46eb-a9a8-1a0b513c03f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\sound">
+      <UniqueIdentifier>{b046b640-bbef-4dc1-8e51-31b329d71e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\lib\2D">
+      <UniqueIdentifier>{e93c8a7c-2db6-4455-8d21-02cf118c28a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\lib\collision">
+      <UniqueIdentifier>{7f634b40-48ed-42e2-a848-0f47dc43ddf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\lib\input">
+      <UniqueIdentifier>{2f368376-0bd2-474b-a0e2-736fb2ff8b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\lib\system">
+      <UniqueIdentifier>{d3cd073d-e530-4fab-aac0-d0b4203e81e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game\main.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\player\count.cpp">
+      <Filter>ソース ファイル\game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\collision\collisionManager.cpp">
+      <Filter>ソース ファイル\game\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scene\gameOverScene.cpp">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scene\resultScene.cpp">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scene\sceneBase.cpp">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scene\sceneManager.cpp">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scene\selectScene.cpp">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scene\titleScene.cpp">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\system\fade.cpp">
+      <Filter>ソース ファイル\lib\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\system\fps.cpp">
+      <Filter>ソース ファイル\lib\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\input\KeyInput.cpp">
+      <Filter>ソース ファイル\lib\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\collision\collision.cpp">
+      <Filter>ソース ファイル\lib\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\2D\2DObject.cpp">
+      <Filter>ソース ファイル\lib\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\sound\soundManager.cpp">
+      <Filter>ソース ファイル\game\sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game\data.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\player\count.h">
+      <Filter>ソース ファイル\game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\collision\collisionManager.h">
+      <Filter>ソース ファイル\game\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scene\gameOverScene.h">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scene\resultScene.h">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scene\sceneBase.h">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scene\sceneManager.h">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scene\selectScene.h">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scene\titleScene.h">
+      <Filter>ソース ファイル\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\system\fade.h">
+      <Filter>ソース ファイル\lib\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\system\fps.h">
+      <Filter>ソース ファイル\lib\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\input\keyInput.h">
+      <Filter>ソース ファイル\lib\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\collision\collision.h">
+      <Filter>ソース ファイル\lib\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\2D\2DObject.h">
+      <Filter>ソース ファイル\lib\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound\soundManager.h">
+      <Filter>ソース ファイル\game\sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
